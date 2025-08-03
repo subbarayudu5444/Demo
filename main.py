@@ -13,7 +13,7 @@ class StudentCreate(BaseModel):
     first_name: str
     last_name: str
     email: EmailStr
-    mobile: str
+    mobile_number: str
 
 class Student(StudentCreate):
     id: int
